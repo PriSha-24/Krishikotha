@@ -1,0 +1,130 @@
+.banner{
+    width: 100%;
+    height: 10%;
+}
+.heading{
+    text-align: center;
+    margin-top: 40px;
+    text-shadow: 4px 4px 4px #4A4A4A;
+    letter-spacing: 7px;
+}
+.card-img-top{
+    height: 250px;
+}
+.card{
+    margin-bottom: 20px;
+}
+.ft{
+    background-color: black;
+    color: beige;
+    padding: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.card:hover{
+    -webkit-box-shadow: 5px 5px 7px 5px #0F0F0F;
+    box-shadow: 5px 5px 7px 5px #0F0F0F;
+}
+
+.nav-link{
+    color: #fff!important;
+}
+
+/* .top{
+    background: url("../images/banner4.jpeg") no-repeat!important;
+    min-height: 300px;
+}
+
+.navbar{
+    background-color: transparent!important;
+} */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #309c66;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: #f08282;
+  }
+  
+  /* Main content */
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  /* Add an active class to the active dropdown button */
+  .active {
+    color: white;
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+  
+  /* Some media queries for responsiveness */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .card{
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+  .footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 20px;
+    position: absolute; 
+    bottom: 0;
+    width: 100%;  
+  }
+  .bg {
+    /* The image used */
+    background-image: url("/images/banner-bg.png");
+  
+    /* Full height */
+   margin-top: 0px;
+    height: 100%; 
+    width: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
